@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+.mainContent{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.container{
+    /*max-width: 1120px;*/
+    width: 100%;
+    background-color: #F3F4F6;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.containerCard{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.card_menber-info{
+    position: absolute;
+    bottom: 0;
+    z-index: 3;
+    padding: 1.5rem;
+}
+
+.card_member-name{
+    /* position: absolute;
+    bottom: 3rem;
+    z-index: 3;
+    left: 1.5rem; */
+    color: #FFFEFE;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.card_member-job{
+    /* position: absolute;
+    bottom: 1.5rem;
+    left: 1.5rem;
+    z-index: 3; */
+    color: #FFFEFE;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.card_member-photo{
+    width: 100%;
+}
+
+.card_member-gradient{
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    width: 100%;
+}
+
+
+.container_img-background{
+    position: absolute;
+    z-index: 0;
+}
+
+.card_info{
+    grid-column: span 2 / span 2;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: relative;
+}
+
+.card_info-subtitle{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #263FA9;
+}
+
+.card_info-title{
+    font-size:  2.5rem;
+    font-weight: 500;
+}
+
+.card_info-text{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #394150;
+    width: 90%;
+}
+
+.card_member_1{
+    grid-column-start: 3;
+    background-color: #C1B6F8;
+}
+
+.card_member_2{
+    grid-column-start: 4;
+    background-color: #EDACD2;
+}
+
+.card_member_3{
+    grid-row-start: 2;
+    background-color: #9DC4F8;
+}
+
+.card_member_4{
+    grid-row-start: 2;
+    background-color: #F8D8B0;
+}
+
+.card_member_5{
+    grid-row-start: 2;
+    background-color: #86E7D4;
+}
+
+.card_link{
+    grid-row-start: 2;
+    grid-column-start: 1;
+    padding: 2rem;
+}
+
+.card_link-a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #394150;
+    gap: 0.25rem;
+}
+
+.card_link-img{
+    align-self: flex-end;
+}
