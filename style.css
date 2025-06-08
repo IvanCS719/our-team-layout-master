@@ -150,6 +150,17 @@
     align-self: flex-end;
 }
 
+.author-info {
+        font-size: 14px;
+        text-align: center;
+        padding: 1rem;
+        color: rgb(55, 65, 81);
+      }
+
+      .author-info a {
+        text-decoration: none;
+      }
+
 @media (max-width: 1024px) {
     .container {
         grid-template-columns: repeat(3, 1fr);
