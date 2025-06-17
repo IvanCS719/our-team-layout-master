@@ -45,7 +45,7 @@
 
 - Mobile
 
-<img src="https://github.com/IvanCS719/our-team-layout-master/blob/main/design/Mobile_412px.jpg?raw=true" width="500px" alt="screenshot">
+<img src="https://github.com/IvanCS719/our-team-layout-master/blob/main/design/Mobile_412px.jpg?raw=true" height="1000px" alt="screenshot">
 
 ### What I learned
 
