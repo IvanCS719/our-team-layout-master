@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://ivancs719.github.io/our-team-layout-master/">
+    <a href="https://github.com/IvanCS719/our-team-layout-master">
       Solution
     </a>
     <span> | </span>
