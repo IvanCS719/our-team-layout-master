@@ -6,7 +6,6 @@
 .DS_Store
 .prettierignore
 
-design/
 README_template.md
 README.md
 thumbnail.jpg
